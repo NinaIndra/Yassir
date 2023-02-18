@@ -76,6 +76,7 @@ ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 nav img{
 width: 45px;
@@ -176,4 +177,17 @@ img{
     background-size: cover;
     
 
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+}
+footer ul{
+    font-size: 10px;
+    padding: 0;
+}
+.social-icons{
+    font-size: 20px;
 }
